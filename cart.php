@@ -16,11 +16,11 @@
         <img src="logo.png" alt="OnlyCATS Logo" class="logo fade-in">
         <nav class="nav fade-in">
             <div class="nav-list fade-in">
-                <a href="index.html">Home</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="cart.html">Order</a>
+                <a href="index.php">Home</a>
+                <a href="gallery.php">Gallery</a>
+                <a href="about.php">About</a>
+                <a href="contact.php">Contact</a>
+                <a href="cart.php">Order</a>
             </div>
         </nav>
     </header>
@@ -29,7 +29,7 @@
         <h1>Your Order Form</h1>
         <p>Here you can put in your order details and proceed to checkout.</p>
 
-        <form action="Order.html" method="post" id="orderForm">
+        <form action="Order.php" method="post" id="orderForm">
             <div class="PersonalInformation fade-in">
                 <label id="aanhef" class="pronouns">Title:</label>
                 <input type="radio" id="ms" name="aanhef" value="Ms.">
