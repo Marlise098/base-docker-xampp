@@ -1,0 +1,514 @@
+body {
+    margin: 0;
+}
+
+
+.fade-in {
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3a0b80;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 120px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.nav-list a:hover {
+    color: #34fff5;
+}
+
+
+
+.main-content .welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 25px;
+
+}
+
+
+
+.products-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom right, #008b95, #34fff5);
+
+}
+
+.product-price2 {
+    font-size: 22px;
+    margin: 15px 0 10px;
+    text-decoration-line: line-through;
+}
+
+.product-price3 {
+    font-size: 22px;
+    margin: 15px 0 10px;
+    font-weight: bold;
+}
+
+.product-card {
+    background-color: #008b95;
+    border-radius: 30px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(19, 255, 216, 0.1);
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+
+.product-image {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(19, 255, 216, 0.2);
+    background-color: #34fff5;
+}
+
+
+
+.footer {
+    background-color: #3a0b80;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button {
+
+    background-color: #34fff5;
+    border: 2px solid #008b95;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+
+.buy-button:hover {
+
+    background-color: #008b95;
+}
+
+.GallerySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 25px;
+}
+
+.cart-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 25px;
+}
+
+.Information {
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 18px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.name:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+.email {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.email:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+.phone {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.phone:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+.adress {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.adress:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+.postal-code {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.postal-code:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+.country {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.country:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+.payment {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pronouns {
+
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.PersonalInformation {
+
+    display: flex;
+    align-items: start;
+}
+
+.payment:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+.date {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.date:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+.terms {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.terms:hover {
+    color: #34fff5;
+    transition: 0.5s ease;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date],
+select {
+
+    border-radius: 6px;
+    background-color: #3a0b80;
+    color: white;
+    padding: 10px;
+}
+
+.OrderButton {
+
+    background-color: #3a0b80;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.Introduce-card {
+
+    background-color: #008b95;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 15px;
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(19, 255, 216, 0.1);
+    font-size: 18px;
+    transition: 0.5s ease;
+    margin-bottom: 0px;
+}
+
+.introduce-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.Introduce-section {
+
+    background: linear-gradient(to bottom left, #008b95, #34fff5);
+    ;
+}
+
+.Introduce-image:hover {
+
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 25px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 18px;
+    align-items: center;
+
+}
+
+.about-page {
+    min-height: 100vh;
+    background: linear-gradient(to top right, #3a0b80, #34fff5);
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.page-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+
+    position: sticky;
+    top: 0;
+    background-color: #008b95;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+
+}
+
+.filter-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration-color: #3a0b80;
+
+}
+
+.filter-list a {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
+    font-weight: bold;
+    justify-content: space-around;
+
+}
+
+.filter-list a:hover {
+    color: #34fff5;
+}
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 25px;
+}
+
+.contact-page {
+    min-height: 100vh;
+    background: linear-gradient(to top right, #3a0b80, #34fff5);
+    font-size: 18px;
+    margin: 0;
+}
+
+
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .nav-list {
+        font-size: 20px;
+        gap: 20px;
+    }
+
+    .welcome-section {
+        font-size: 32px;
+        padding: 100px 20px;
+    }
+
+    .product-card {
+        font-size: 20px;
+    }
+
+    .products-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        height: 80px;
+        margin-bottom: 20px;
+    }
+
+
+    .nav-list {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .welcome-section {
+        font-size: 24px;
+        padding: 80px 20px;
+    }
+
+    .product-card {
+        font-size: 18px;
+    }
+
+    .products-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
