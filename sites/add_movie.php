@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="number" id="year" name="year" value="<?php echo htmlspecialchars($year); ?>" required>
 
         <label for="rating">Rating</label>
-        <input type="number" step="0.1" min="0" max="10" id="rating" name="rating" value="<?php echo htmlspecialchars($rating); ?>">
+        <input type="number" id="rating" name="rating" value="<?php echo htmlspecialchars($rating); ?>">
 
         <label for="length">Lengte (minuten)</label>
         <input type="number" id="length" name="length" value="<?php echo htmlspecialchars($length); ?>">

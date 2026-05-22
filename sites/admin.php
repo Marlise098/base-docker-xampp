@@ -58,7 +58,7 @@ $result = $conn->query('SELECT id, title, year, genre, rating, active FROM Movie
                         <td><?php echo htmlspecialchars($movie['title']); ?></td>
                         <td><?php echo htmlspecialchars($movie['year']); ?></td>
                         <td><?php echo htmlspecialchars($movie['genre']); ?></td>
-                        <td><?php echo htmlspecialchars($movie['rating']); ?></td>
+                        <td><?php echo htmlspecialchars($movie['rating']); ?> %</td>
                         <td><?php echo $movie['active'] ? 'Ja' : 'Nee'; ?></td>
                         <td class="actions">
                             <a href="edit_movie.php?id=<?php echo urlencode($movie['id']); ?>">Bewerken</a>

@@ -91,8 +91,8 @@ $conn->close();
         <p><strong>Genre:</strong> <?php echo htmlspecialchars($movie['genre']); ?></p>
         <div class="meta">
             <div><strong>Jaar</strong><br><?php echo htmlspecialchars($movie['year']); ?></div>
-            <div><strong>Rating</strong><br><?php echo htmlspecialchars($movie['rating']); ?>/10</div>
-            <div><strong>Lengte</strong><br><?php echo htmlspecialchars($movie['length']); ?> minuten</div>
+            <div><strong>Rating</strong><br><?php echo htmlspecialchars($movie['rating']); ?>/ 100%</div>
+            <div><strong>Lengte</strong><br><?php echo htmlspecialchars($movie['length']); ?> </div>
             <div><strong>Status</strong><br><?php echo ($movie['active'] ? 'Actief' : 'Niet actief'); ?></div>
         </div>
         <div class="summary">

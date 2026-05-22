@@ -78,10 +78,10 @@ if (!isset($_GET['id']) || !ctype_digit($_GET['id'])) {
             <input type="number" id="year" name="year" value="<?php echo htmlspecialchars($movie['year']); ?>" required>
 
             <label for="rating">Rating</label>
-            <input type="number" step="0.1" min="0" max="10" id="rating" name="rating" value="<?php echo htmlspecialchars($movie['rating']); ?>">
+            <input type="text" id="rating" name="rating" value="<?php echo htmlspecialchars($movie['rating']); ?> %">
 
             <label for="length">Lengte (minuten)</label>
-            <input type="number" id="length" name="length" value="<?php echo htmlspecialchars($movie['length']); ?>">
+            <input type="number" id="length" name="length" value="<?php echo htmlspecialchars($movie['length']); ?>Minuten">
 
             <label for="thumbnail">Thumbnail URL</label>
             <input type="text" id="thumbnail" name="thumbnail" value="<?php echo htmlspecialchars($movie['thumbnail']); ?>">
